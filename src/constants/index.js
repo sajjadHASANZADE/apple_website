@@ -48,10 +48,9 @@ export const highlightsSlides = [
 
 export const models = [
   {
-    id: 1,
     title: "iPhone 15 Pro in Natural Titanium",
-    color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
-    img: yellowImg,
+    color: ["#8F8A81", "#FFE7B9", "#6F6C64"],
+    img: yellowImg, // Ensure this path is correct
   },
   {
     id: 2,
