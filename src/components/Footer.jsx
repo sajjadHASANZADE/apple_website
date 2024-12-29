@@ -4,6 +4,9 @@ import gsap from "gsap";
 const Footer = () => {
   useGSAP(() => {
     gsap.to("#footer", {
+      scrollTrigger: {
+        trigger: "#footer",
+      },
       opacity: 1,
       duration: 1,
       delay: 0.5,
