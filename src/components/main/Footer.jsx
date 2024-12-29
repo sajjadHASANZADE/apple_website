@@ -1,18 +1,17 @@
 import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+import { animateWithGsap } from "../../utils/animations";
 
 const Footer = () => {
   useGSAP(() => {
-    gsap.to("#footer", {
-      scrollTrigger: {
-        trigger: "#footer",
-      },
+    animateWithGsap("#footer", {
+      y: 0,
       opacity: 1,
       duration: 1,
-      delay: 0.5,
       ease: "power2.inOut",
+      scrub: 1,
     });
   }, []);
+
   return (
     <section className="flex justify-center items-center bg-gray-300 text-2xl common-padding">
       <div
