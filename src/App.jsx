@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Highlights from "./components/highlights/Highlights";
 import Model from "./components/iPhoneModel/Model";
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Highlights />
       <Model />
+      <Footer />
     </main>
   );
 };
