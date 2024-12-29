@@ -7,6 +7,7 @@ import Loader from "./Loader";
 
 const ModelView = ({
   index,
+  
   groupRef,
   gsapType,
   controlRef,
