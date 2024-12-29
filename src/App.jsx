@@ -4,6 +4,7 @@ import Highlights from "./components/highlights/Highlights";
 import Model from "./components/iPhoneModel/Model";
 import Navbar from "./components/main/Navbar";
 import Features from "./components/main/Features";
+import Chip from "./components/main/Chip";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <Chip />
       <Footer />
     </main>
   );
