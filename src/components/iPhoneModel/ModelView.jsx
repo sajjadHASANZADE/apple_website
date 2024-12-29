@@ -3,11 +3,11 @@ import Lights from "./Lights";
 import { Suspense } from "react";
 import IPhone from "./IPhone";
 import * as THREE from "three";
-import Loader from "./Loader";
+import Loader from "../../utils/Loader";
 
 const ModelView = ({
   index,
-  
+
   groupRef,
   gsapType,
   controlRef,
