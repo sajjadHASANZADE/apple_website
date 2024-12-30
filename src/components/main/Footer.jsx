@@ -28,7 +28,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <section className="flex justify-center items-center bg-gray-300 text-2xl common-padding">
+    <section className="flex justify-center items-center bg-gray-900 text-2xl common-padding">
       <div
         id="footer"
         className="bg-gray-100 opacity-0 sm:pt-6 sm:pb-6 rounded-lg text-black common-padding"
