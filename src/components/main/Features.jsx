@@ -1,9 +1,17 @@
-import { useGSAP } from "@gsap/react";
-import { animateWithGsap } from "../../utils/animations";
-import { explore1Img, explore2Img, exploreVideo } from "../../utils";
-import { useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from 'react';
+
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+import { useGSAP } from '@gsap/react';
+
+import {
+  explore1Img,
+  explore2Img,
+  exploreVideo,
+} from '../../utils';
+import { animateWithGsap } from '../../utils/animations';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Features = () => {
@@ -73,6 +81,7 @@ const Features = () => {
               >
                 <source src={exploreVideo} type="video/mp4" />
               </video>
+              <p>kianush khare</p>
             </div>
             <div className="relative flex flex-col w-full">
               <div className="sm:flex gap-5 features-video-container">
